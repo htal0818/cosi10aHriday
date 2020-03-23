@@ -90,13 +90,8 @@ generalResponses = [
   "Tell me about your relationship with your mother?",
   "Let me run a diagnostic test on your phone",
   "is your phone backed up to Icloud?",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "What other problems would you like to talk about",
+  "I've schedueled your appointment with the genius bar",
 ]
 
 
