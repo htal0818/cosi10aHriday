@@ -24,7 +24,7 @@ def questions():
 def respond(comment):
     """ generate a computer response to the user's comment"""
     if contains(comment,broken):
-        return choice(brokenresponse)
+        return choice(brokenresponses)
     if contains(comment,newphone):
         return choice(salesresponse)
     if len(comment.split()) <= 2:  # respond to short answers...
@@ -54,7 +54,7 @@ def contains2(sentence,words):
 
 # Here are the keywords and responses to phone damage comments
 broken = "cracked screen broken software not starting water damage".split()
-brokenresponse=[
+brokenresponses=[
 "how did you damage your phone?",
 "Do you have Applecare?",
 "Would you like to buy a new phone?",
