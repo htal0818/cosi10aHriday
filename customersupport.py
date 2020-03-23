@@ -103,5 +103,5 @@ generalResponses = [
 
 
 if __name__=="__main__":
-    eliza()  # call eliza when run as a script
-    print(eliza())         # but not when imported
+    questions()  # call questions when run as a script
+         # but not when imported
