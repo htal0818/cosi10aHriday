@@ -25,8 +25,8 @@ def respond(comment):
     """ generate a computer response to the user's comment"""
     if contains(comment,broken):
         return choice(brokenresponse)
-#    if contains(comment,madWords):
-#        return choice(madResponses)
+    if contains(comment,newphone):
+        return choice(salesresponse)
     if len(comment.split()) <= 2:  # respond to short answers...
         return choice(pleaseanswer)
     return choice(generalResponses)
@@ -62,15 +62,13 @@ brokenresponse=[
 
 
 # Here are the mad keywords and response to comments containing a mad keyword
-#newphone = "new phone product replacement angry upset hate anger wrath hatred sad despicable,".split()
+newphone = "new phone product replacement".split()
 salesresponse = [
   "Let me see the damage",
-  "Why are you feeling this way?",
+  "We have three models",
   "Wait here while I see what we have in stock",
-  "Are you experiencing any conflicts in your life right now?",
-  "i am listening, what makes you angry",
-  "lifes good, dude",
-  "what is frustrating you?"
+  "Are you experiencing any other issues right now?",
+
 ]
 
 # these are the possible responses to short comments
