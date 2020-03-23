@@ -24,7 +24,7 @@ def questions():
 def respond(comment):
     """ generate a computer response to the user's comment"""
     if contains(comment,broken):
-        return choice(brokenresponses)
+        return choice(brokenresponse)
 #    if contains(comment,madWords):
 #        return choice(madResponses)
     if len(comment.split()) <= 2:  # respond to short answers...
