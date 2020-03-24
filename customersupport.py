@@ -9,7 +9,7 @@ def questions():
         this function asks the user questions
         based on the answer to the previous question
     """
-    userComment = input("Computer >> What seems to be the problem?\nThe User >> ")
+    userComment = input("Computer >> hello welcome to apple customer support\nThe User >> ")
 
     while userComment not in ["goodbye","bye","quit","exit"]:
         humanResponses.append(userComment)
@@ -54,7 +54,8 @@ def contains2(sentence,words):
 
 # Here are the keywords and responses to phone damage comments
 broken = "cracked screen broken software not starting water damage".split()
-brokenresponses=[
+brokenresponses =
+[
 "how did you damage your phone?",
 "Do you have Applecare?",
 "Would you like to buy a new phone?",
